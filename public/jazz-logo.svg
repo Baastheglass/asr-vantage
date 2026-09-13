@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="JazzWorld">
+  <defs>
+    <linearGradient id="jwg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#E03A2F"/>
+      <stop offset="30%"  stop-color="#C82743"/>
+      <stop offset="62%"  stop-color="#8E1C5C"/>
+      <stop offset="100%" stop-color="#4A1050"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="98" fill="url(#jwg)"/>
+
+  <g fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- entry flourish sweeping in from the left into the top of the j -->
+    <path d="M24 92 C 42 93, 55 92, 67 85 C 79 77, 87 72, 95 72"/>
+    <!-- j: stem descending into the open loop, exiting up into the w -->
+    <path d="M95 72 C 103 72, 105 81, 102 98 C 98 122, 91 148, 79 154
+             C 68 159, 59 151, 61 139 C 64 123, 81 108, 100 95
+             C 111 87, 120 80, 127 74"/>
+    <!-- w: two tall peaks with a long rising exit tail -->
+    <path d="M127 74 C 120 92, 115 112, 119 124 C 123 135, 132 131, 137 117
+             C 143 101, 147 84, 150 76 C 152 88, 151 110, 156 122
+             C 160 133, 169 131, 174 116 C 178 102, 180 86, 181 76"/>
+  </g>
+
+  <!-- tittle over the j -->
+  <circle cx="91" cy="48" r="8.5" fill="#fff"/>
+</svg>
